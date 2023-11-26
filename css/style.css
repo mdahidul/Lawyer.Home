@@ -1,0 +1,555 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+     font-family: 'Open Sans', sans-serif; 
+     font-size: 14px ;
+     line-height: 1.7em ;
+     font-weight: 600 ;       
+}
+
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 100% ;
+    padding: 10px 0px ;
+    background: #fff ;
+   
+}
+.header .nav-link{
+    font-size: 14px ;
+    font-weight: 700 ;
+    color: #28377e;
+    margin: 0px 0px 0px 22px ;
+    text-transform: uppercase ;
+    letter-spacing: 1px ;
+    transition: 1s ;
+}
+.header .nav-link:hover, .header .nav-link:focus{
+    color: #f15528;
+}
+.slider{
+    width: 100% ;
+    padding: 80px 0px ;
+    background-image: url(../images/slider.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center top;
+    text-align: center ;
+    position: relative ;
+}
+.inner-slider{
+    padding: 125px 0px ;
+}
+.inner-slider h1{
+    font-size: 52px ;
+    line-height: 1.2em ;
+    color: #fff;
+    font-weight: 700 ;
+}
+.arrow{
+    width: 100% ;i
+}
+.arrow img{
+    position: absolute ;
+    bottom: 50px ;
+}
+.banner{
+    width: 100% ;
+    padding: 80px 0px ;
+}
+.banner .arr-banner{
+    margin: 80px 0px ;
+}
+.banner .arr-banner h1{
+    font-size: 48px ;
+    color: #28377e;
+    font-weight: 700 ;
+    text-transform: uppercase ;
+}
+.banner .arr-banner p{
+    font-size: 14px ;
+    font-weight: 600 ;
+    color: #b0b0b1;
+}
+/* global csss  start */
+.what-we-do{
+    width: 100% ;
+    padding:80px 0px 100px ;
+    background-image: url(../images/what.png) ;
+    background-position: center top ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+   
+}
+.what-we-do .title{
+    width: 100% ;
+    text-align: center ;
+    padding: 0px 0px 60px ;
+  
+}
+.what-we-do .title h1{
+    color: #28377e;
+    font-weight: 700 ;
+    text-transform: uppercase ;
+}
+.what-we-do .card{
+    border: 0px ;
+    border-radius: 0px ;
+    
+}
+.what-we-do .card .card-img-overlay{
+    text-align: center ;
+}
+.what-we-do .card .card-img-overlay .card-title{
+    position: absolute ;
+    top: 50% ;
+    left: 15% ;
+    width: 70%;
+    color: white;
+    line-height: 1.4em ;
+    font-weight: 500 ;
+}
+.what-we-do .card .card-img-overlay .long-arrow{
+    position: absolute ;
+    bottom: 15% ;
+    left: 45% ;
+}
+/* global csss  start */
+.attorneys{
+    width: 100% ;
+    padding: 110px 0px 70px ;
+    background-image: url(../images/AB.png) ;
+    background-position: center top ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.attorneys .title{
+    padding: 130px 0px ;
+}
+.attorneys .title h1{
+    color: white;
+    font-weight: 500 ;
+    text-transform: uppercase ;
+}
+.attorneys .title p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    color: #b0b0b1;
+}
+.attorneys .btn-link{
+    font-size: 15px ;
+    text-transform: uppercase ;
+    color: #f15528;
+    font-weight: 600 ;
+    letter-spacing: 1px;
+    text-decoration: none ;
+    padding: 0px ;
+    transition: 1s ;
+}
+.attorneys .card{
+    margin: 0px 0px 25px ;
+    border: 0px ;
+    border-radius: 0px ;
+}
+.attorneys .card .card-img-overlay .card-title{
+    position: absolute;
+    color: white;
+    line-height: 1.4em ;
+    text-transform: uppercase ;
+    font-weight: 500 ;
+    bottom: 10% ;
+    left: 15% ;
+
+}
+.attorneys .card .card-img{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px;
+}
+.language{
+    width: 100% ;
+    padding: 80px 0px  ;
+    text-align: center ;
+}
+.language .title h1{
+    color: #28377e;
+    font-weight: 700 ;
+    line-height: 1.7em ;
+    text-transform: uppercase ;
+    padding: 0px 0px 40px;
+}
+.language .inner-language{
+    width: 100% ;
+    text-align: left ;
+}
+.language .inner-language h1{
+    font-size: 30px ;
+    color: #28377e;
+    font-weight: 700 ;
+    text-transform: uppercase ;
+}
+.language .inner-language p{
+    font-size: 14px ;
+    font-weight: 600 ;
+    color: #b0b0b1;
+}
+.language .inner-language .btn-link{
+    font-size: 15px ;
+    text-transform: uppercase ;
+    color: #f15528;
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    text-decoration: none ;
+    padding: 0px ;
+    transition: 1s ;
+   
+    
+}
+
+.contact{
+    width: 100% ;
+    padding: 80px 0px 40px ;
+    background: #28377e;
+}
+
+.contact .contact-heading{
+    text-align: center ;
+}
+.contact .contact-heading h1{
+    color: #fff;
+    font-size: 48px ;
+    line-height: 1.7em ;
+    font-weight: 600 ;
+}
+.contact .main-form{
+    width: 100% ;
+}
+.contact .main-form .form-control{
+    background: transparent ;
+    color: #fff;
+    border-top: 0px ;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 2px solid #4759A7 ;
+    box-shadow: none ;
+    border-radius: 0px ;
+    padding: 0px ;
+}
+.contact .main-form ::placeholder{
+    color: white;
+   
+   
+}
+.contact .main-form .btn-link{
+    padding: 10px 70px ;
+    background: #f15528;
+    color: #fff;
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    text-decoration: none ;
+    transition: 1s ;
+}
+.footer{
+    width: 100%;
+    padding: 30px 0px ;
+    background: #0C1234;
+}
+.footer .inner-footer{
+    width: 100%;
+}
+.footer .inner-footer p{
+    color: #FFF;
+    text-align: center ;
+    margin-top: 10px ;
+    font-weight: 500;
+}
+.footer .social-icon{
+    width: 100% ;
+    margin: 0px auto ;
+    
+}
+.footer .social-icon ul{
+    display: block ;
+}
+.footer .social-icon ul li{
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+.footer .social-icon ul li a{
+    display: block ;
+    color: #fff;
+    display: inline-block ;
+    margin: 10px 35px 0px 0px ;
+}
+.footer .social-icon ul li a i{
+    font-size: 20px ;
+  
+}
+
+
+/* css media queary start */
+
+/* ****
+*   scren resulation : 279 to 379px 
+*   most of the folding mobile phone --- galaxy fold
+*
+*
+*/
+
+
+
+@media (min-width: 279px) and (max-width:319px) {
+    /* css start */
+    .slider {
+        width: 100%;
+        padding: 30px 0px;
+
+        }
+    .inner-slider h1 {        
+     font-size: 24px;
+     }
+     .banner {
+        padding: 30px 0px;
+    }  
+    .banner .arr-banner h1 {
+        font-size: 24px;
+    } 
+    .what-we-do {
+        padding: 30px 0px 50px;
+       
+    }      
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+    .attorneys .title {
+        padding: 30px 0px;
+    }
+    .attorneys {
+        width: 100%;
+        padding: 30px 0px;
+        }
+     .language {
+        padding: 30px 0px;
+        }
+     .language .title h1{
+        font-size: 24px ;
+     }
+     .contact {
+        padding: 30px 0px 40px;
+    }
+    .footer .social-icon ul li {
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    
+    /* css end */
+    
+    
+    }
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone 
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 320px) and (max-width:480px) {
+    /* css start */
+    .slider {
+        width: 100%;
+        padding: 30px 0px;
+
+        }
+    .inner-slider h1 {        
+     font-size: 26px;
+     }
+     .banner {
+        padding: 30px 0px;
+    }  
+    .banner .arr-banner h1 {
+        font-size: 26px;
+    } 
+    .what-we-do {
+        padding: 30px 0px 50px;
+       
+    }      
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+    .attorneys .title {
+        padding: 30px 0px;
+    }
+    .attorneys {
+        width: 100%;
+        padding: 30px 0px;
+        }
+     .language {
+        padding: 30px 0px;
+        }
+     .language .title h1{
+        font-size: 26px ;
+     }
+     .contact {
+        padding: 30px 0px 40px;
+    }
+    .footer .social-icon ul li {
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+     /* css end */  
+    }
+    
+    
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone and low resulation tab
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 481px) and (max-width:767px) {
+        /* css start */ 
+        .header .nav-link {
+            margin: 0px 0px 0px 22px;
+          
+        }
+        .slider {
+            width: 100%;
+            padding: 40px 0px;
+    
+            }
+        .inner-slider h1 {        
+         font-size: 28px;
+         }
+         .banner {
+            padding: 40px 0px;
+        }  
+        .banner .arr-banner h1 {
+            font-size: 28px;
+        } 
+        .what-we-do {
+            padding: 40px 0px 60px;
+           
+        }      
+        .card-img, .card-img-bottom, .card-img-top {
+            width: 100%;
+            margin: 0px 0px 30px;
+        }
+        .attorneys .title {
+            padding: 40px 0px;
+        }
+        .attorneys {
+            width: 100%;
+            padding: 40px 0px;
+            }
+         .language {
+            padding: 40px 0px;
+            }
+         .language .title h1{
+            font-size: 28px ;
+         }
+         .contact {
+            padding: 40px 0px 40px;
+        }
+        .footer .social-icon ul li {
+            list-style: none;
+            display: block;
+            text-align: center;
+        }
+
+        /* css end */
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ****
+    *   scren resulation : 768 to 1024px 
+    *   most of the tablates notbook i pads
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 768px) and (max-width:1024px) {
+        /* css start */
+        .slider {
+            width: 100%;
+            padding: 50px 0px;
+    
+            }
+        .inner-slider h1 {        
+         font-size: 30px;
+         }
+         .banner {
+            padding: 50px 0px;
+        }  
+        .banner .arr-banner h1 {
+            font-size: 30px;
+        } 
+        .what-we-do {
+            padding: 50px 0px 70px;
+           
+        }      
+        .card-img, .card-img-bottom, .card-img-top {
+            width: 100%;
+            margin: 0px 0px 40px;
+        }
+        .attorneys .title {
+            padding: 50px 0px;
+        }
+        .attorneys {
+            width: 100%;
+            padding: 50px 0px;
+            }
+         .language {
+            padding: 50px 0px;
+            }
+         .language .title h1{
+            font-size: 30px ;
+         }
+         .contact {
+            padding: 50px 0px 40px;
+        }
+        .footer .social-icon ul li {
+            list-style: none;
+            display: block;
+            text-align: center;
+        }
+            /* css end */
+            
+            
+        }
+        
